@@ -1,8 +1,11 @@
 function SearchBar() {
+    const style={
+        border:" 1px solid lavender"
+    }
   return (
     <>
     
-      <div className="SearchBar-div">
+      <div style={style}className="SearchBar-div">
         <div className="conatiner">
           <input
             type="text"

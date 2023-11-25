@@ -1,10 +1,12 @@
+import './ProductTable.css'
 function ProductTable(){
     const style={
         border:" 1px solid lavender"
     }
+    
     return(<>
     <div style={style}className="ProductTable-div">
-        demo
+        <h3><span className="span1" >Name</span> <span>Price</span></h3>
     </div>
     </>);
 }
